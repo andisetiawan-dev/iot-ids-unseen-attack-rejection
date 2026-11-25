@@ -1,0 +1,6 @@
+model,f1_mean,f1_std,acc_mean
+CatBoost,0.8692,0.0008,0.9456
+LightGBM,0.8872,0.0007,0.953
+RandomForest,0.8297,0.0013,0.9378
+XGBEns,0.8857,0.0003,0.9523
+XGBoost,0.8834,0.0011,0.9514

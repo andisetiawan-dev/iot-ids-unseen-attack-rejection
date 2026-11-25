@@ -1,0 +1,8 @@
+method,auroc,ood_rej,mixerr_r5
+Entropy,0.9601,0.8736,0.0118
+Fusion_MItrees_kNN,0.9462,0.8745,0.0176
+IsolationForest,0.64,0.0526,0.0654
+MI_trees,0.9625,0.8375,0.0194
+MSP,0.9601,0.8616,0.0122
+Mahalanobis,0.669,0.1255,0.0615
+kNN,0.9009,0.6052,0.0342

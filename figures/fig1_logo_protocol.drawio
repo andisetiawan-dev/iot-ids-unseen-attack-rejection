@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="LOGO protocol" id="logo-protocol">
+    <mxGraphModel dx="811" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Labelled flows&lt;br&gt;(benign + K attack families)" vertex="1">
+          <mxGeometry height="50" width="220" x="390" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Seen classes: all other families + benign&lt;br&gt;(stratified split 60 / 20 / 20)" vertex="1">
+          <mxGeometry height="50" width="220" x="270" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5eAT46j8SDhc4kLbZxdE-4" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=none;" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="160" />
+              <mxPoint x="650" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Held-out family g becomes the unseen set&lt;br&gt;(at most 30,000 flows)" vertex="1">
+          <mxGeometry height="50" width="230" x="510" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="E" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Validation (20%)" vertex="1">
+          <mxGeometry height="40" width="130" x="170" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="D" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Train (60%)" vertex="1">
+          <mxGeometry height="40" width="130" x="315" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5eAT46j8SDhc4kLbZxdE-2" edge="1" parent="1" source="F" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=none;" target="I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Test, seen (20%)" vertex="1">
+          <mxGeometry height="40" width="130" x="460" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Set threshold at 95%&lt;br&gt;coverage of seen&lt;br&gt;validation scores" vertex="1">
+          <mxGeometry height="70" width="130" x="170" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="G" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Fit classifier, feature&lt;br&gt;transform and score&lt;br&gt;models (train only)" vertex="1">
+          <mxGeometry height="70" width="130" x="315" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="I" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Score seen test flows and&lt;br&gt;unseen flows (MSP, Entropy,&lt;br&gt;MI, kNN, Fusion, ...)" vertex="1">
+          <mxGeometry height="70" width="165" x="460" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="J" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Metrics: AUROC, FPR95, coverage, selective accuracy,&lt;br&gt;unseen rejection, mixed-stream error" vertex="1">
+          <mxGeometry height="50" width="330" x="215" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="K" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Times New Roman;arcSize=12;fillColor=none;" value="Repeat for every held-out family g and seeds 0-4;&lt;br&gt;paired Wilcoxon tests on AUROC" vertex="1">
+          <mxGeometry height="50" width="330" x="215" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="C">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="E">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="D">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="E" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="H">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="D" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="G">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="G" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fillColor=none;" target="I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="H" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="J">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="I" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="J">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="J" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fillColor=none;" target="K">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

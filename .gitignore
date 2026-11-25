@@ -1,0 +1,16 @@
+# secrets: never commit these
+kaggle.json
+kaggle_api_key*
+*.token
+.env
+
+# raw datasets are not redistributed (see README)
+data/
+*.dot
+*.docx
+
+# generated / local
+__pycache__/
+catboost_info/
+out/
+.ipynb_checkpoints/

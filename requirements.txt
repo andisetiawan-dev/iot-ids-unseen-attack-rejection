@@ -1,0 +1,9 @@
+# Versions are not pinned. The experiments ran in the default Kaggle Python environment (CPU only, no GPU needed).
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+lightgbm
+catboost
+matplotlib

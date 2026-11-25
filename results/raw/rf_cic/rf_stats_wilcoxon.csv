@@ -1,0 +1,7 @@
+method,vs,mean_auroc_diff,n_pairs,p_wilcoxon
+MI_trees,MSP,0.03278,35,0.08707
+Fusion_MItrees_kNN,MSP,0.04006,35,0.08707
+kNN,MSP,-0.00558,35,0.96775
+MI_trees,Entropy,0.03231,35,0.08707
+Fusion_MItrees_kNN,Entropy,0.03959,35,0.08707
+kNN,Entropy,-0.00605,35,1.0

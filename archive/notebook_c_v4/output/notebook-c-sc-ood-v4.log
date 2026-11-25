@@ -1,0 +1,173 @@
+[{"stream_name":"stderr","time":8.089572907,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":8.089626682,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":9.292557961,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.292591426,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.292597391,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.292602404,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.11908709,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.119124205,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.119130078,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.11913478,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":20.487961218,"data":"QUICK = False | seeds = [0, 1, 2, 3, 4]\n"}
+,{"stream_name":"stdout","time":21.530952313,"data":"/kaggle/input/datasets/USERNAME/dataset-edge-iiotset-clean/edge_iiotset_clean.csv (61200, 59)\n"}
+,{"stream_name":"stdout","time":21.53099079,"data":"duplikat dibuang: 2036 | kolom konstan dibuang: 19 | fitur: 37\n"}
+,{"stream_name":"stdout","time":21.596247885,"data":"{'Benign': 23841, 'DoS_DDoS': 11925, 'Injection': 9678, 'Malware': 9518, 'Information_Gathering': 3815, 'MITM': 387}\n"}
+,{"stream_name":"stdout","time":21.596298737,"data":"{'Normal': 23841, 'Uploading': 3826, 'Ransomware': 3787, 'Backdoor': 3781, 'DDoS_UDP': 3496, 'DDoS_ICMP': 3373, 'SQL_injection': 3039, 'XSS': 2813, 'DDoS_HTTP': 2556, 'DDoS_TCP': 2500, 'Password': 1950, 'Vulnerability_scanner': 1902, 'Port_Scanning': 1726, 'MITM': 387, 'Fingerprinting': 187}\n"}
+,{"stream_name":"stdout","time":109.307355221,"data":"XGBoost selesai\n"}
+,{"stream_name":"stdout","time":163.909976119,"data":"LightGBM selesai\n"}
+,{"stream_name":"stdout","time":258.358280404,"data":"CatBoost selesai\n"}
+,{"stream_name":"stdout","time":320.814654718,"data":"RandomForest selesai\n"}
+,{"stream_name":"stdout","time":320.814690255,"data":"              f1_mean  f1_std  acc_mean\n"}
+,{"stream_name":"stdout","time":320.814696833,"data":"model                                  \n"}
+,{"stream_name":"stdout","time":320.81470259499997,"data":"CatBoost       0.9634  0.0004    0.9639\n"}
+,{"stream_name":"stdout","time":320.814708123,"data":"LightGBM       0.9683  0.0003    0.9671\n"}
+,{"stream_name":"stdout","time":320.814714127,"data":"RandomForest   0.9463  0.0012    0.9455\n"}
+,{"stream_name":"stdout","time":320.814719903,"data":"XGBoost        0.9692  0.0004    0.9681\n"}
+,{"stream_name":"stdout","time":416.87608269,"data":"                               setting  f1_macro\n"}
+,{"stream_name":"stdout","time":416.876196514,"data":"0   6 grup, tanpa Attack_label (benar)    0.9692\n"}
+,{"stream_name":"stdout","time":416.876205953,"data":"1  6 grup, dengan Attack_label (bocor)    0.9719\n"}
+,{"stream_name":"stdout","time":416.876211784,"data":"2      15 kelas (Attack_type), XGBoost    0.9349\n"}
+,{"stream_name":"stdout","time":416.876228839,"data":"                       precision  recall  f1-score     support\n"}
+,{"stream_name":"stdout","time":416.876233837,"data":"Benign                    0.9935  0.9935    0.9935  23841.0000\n"}
+,{"stream_name":"stdout","time":416.876238079,"data":"DoS_DDoS                  0.9517  0.9556    0.9537  11925.0000\n"}
+,{"stream_name":"stdout","time":416.876242763,"data":"Information_Gathering     0.9923  0.9782    0.9852   3815.0000\n"}
+,{"stream_name":"stdout","time":416.876247389,"data":"Injection                 0.8973  0.9385    0.9174   9678.0000\n"}
+,{"stream_name":"stdout","time":416.876252176,"data":"MITM                      1.0000  0.9974    0.9987    387.0000\n"}
+,{"stream_name":"stdout","time":416.876256709,"data":"Malware                   0.9885  0.9427    0.9651   9518.0000\n"}
+,{"stream_name":"stdout","time":416.876261443,"data":"accuracy                  0.9678  0.9678    0.9678      0.9678\n"}
+,{"stream_name":"stdout","time":416.876266057,"data":"macro avg                 0.9705  0.9677    0.9689  59164.0000\n"}
+,{"stream_name":"stdout","time":416.876270641,"data":"weighted avg              0.9685  0.9678    0.9680  59164.0000\n"}
+,{"stream_name":"stdout","time":434.098004418,"data":"[group] DoS_DDoS                 seed=0  16.9s\n"}
+,{"stream_name":"stdout","time":450.822593184,"data":"[group] DoS_DDoS                 seed=1  16.7s\n"}
+,{"stream_name":"stdout","time":467.599599375,"data":"[group] DoS_DDoS                 seed=2  16.8s\n"}
+,{"stream_name":"stdout","time":484.380170255,"data":"[group] DoS_DDoS                 seed=3  16.8s\n"}
+,{"stream_name":"stdout","time":501.343509047,"data":"[group] DoS_DDoS                 seed=4  17.0s\n"}
+,{"stream_name":"stdout","time":519.009125451,"data":"[group] Malware                  seed=0  17.7s\n"}
+,{"stream_name":"stdout","time":536.665336761,"data":"[group] Malware                  seed=1  17.7s\n"}
+,{"stream_name":"stdout","time":554.310526205,"data":"[group] Malware                  seed=2  17.6s\n"}
+,{"stream_name":"stdout","time":571.821580992,"data":"[group] Malware                  seed=3  17.5s\n"}
+,{"stream_name":"stdout","time":589.239083932,"data":"[group] Malware                  seed=4  17.4s\n"}
+,{"stream_name":"stdout","time":609.141668649,"data":"[group] Information_Gathering    seed=0  19.9s\n"}
+,{"stream_name":"stdout","time":627.395888954,"data":"[group] Information_Gathering    seed=1  18.3s\n"}
+,{"stream_name":"stdout","time":646.685740398,"data":"[group] Information_Gathering    seed=2  19.3s\n"}
+,{"stream_name":"stdout","time":666.059451337,"data":"[group] Information_Gathering    seed=3  19.4s\n"}
+,{"stream_name":"stdout","time":684.481125477,"data":"[group] Information_Gathering    seed=4  18.4s\n"}
+,{"stream_name":"stdout","time":702.614519022,"data":"[group] Injection                seed=0  18.1s\n"}
+,{"stream_name":"stdout","time":719.837201479,"data":"[group] Injection                seed=1  17.2s\n"}
+,{"stream_name":"stdout","time":737.154819597,"data":"[group] Injection                seed=2  17.3s\n"}
+,{"stream_name":"stdout","time":754.350336476,"data":"[group] Injection                seed=3  17.2s\n"}
+,{"stream_name":"stdout","time":771.78472053,"data":"[group] Injection                seed=4  17.4s\n"}
+,{"stream_name":"stdout","time":791.728322784,"data":"[group] MITM                     seed=0  19.9s\n"}
+,{"stream_name":"stdout","time":812.161236066,"data":"[group] MITM                     seed=1  20.4s\n"}
+,{"stream_name":"stdout","time":832.902166295,"data":"[group] MITM                     seed=2  20.7s\n"}
+,{"stream_name":"stdout","time":853.722317701,"data":"[group] MITM                     seed=3  20.8s\n"}
+,{"stream_name":"stdout","time":874.171410484,"data":"[group] MITM                     seed=4  20.6s\n"}
+,{"stream_name":"stdout","time":899.182364395,"data":"[type] DDoS_HTTP                seed=0  24.8s\n"}
+,{"stream_name":"stdout","time":924.12217654,"data":"[type] DDoS_HTTP                seed=1  24.9s\n"}
+,{"stream_name":"stdout","time":948.056242418,"data":"[type] DDoS_HTTP                seed=2  23.9s\n"}
+,{"stream_name":"stdout","time":972.207489551,"data":"[type] DDoS_ICMP                seed=0  24.1s\n"}
+,{"stream_name":"stdout","time":996.74041617,"data":"[type] DDoS_ICMP                seed=1  24.6s\n"}
+,{"stream_name":"stdout","time":1025.695758429,"data":"[type] DDoS_ICMP                seed=2  29.0s\n"}
+,{"stream_name":"stdout","time":1050.700439103,"data":"[type] DDoS_TCP                 seed=0  25.0s\n"}
+,{"stream_name":"stdout","time":1076.488023798,"data":"[type] DDoS_TCP                 seed=1  25.8s\n"}
+,{"stream_name":"stdout","time":1102.383738395,"data":"[type] DDoS_TCP                 seed=2  25.9s\n"}
+,{"stream_name":"stdout","time":1126.657274664,"data":"[type] Ransomware               seed=0  24.3s\n"}
+,{"stream_name":"stdout","time":1151.046814881,"data":"[type] Ransomware               seed=1  24.4s\n"}
+,{"stream_name":"stdout","time":1175.173340368,"data":"[type] Ransomware               seed=2  24.1s\n"}
+,{"stream_name":"stdout","time":1199.339603504,"data":"[type] DDoS_UDP                 seed=0  24.2s\n"}
+,{"stream_name":"stdout","time":1225.076350294,"data":"[type] DDoS_UDP                 seed=1  25.7s\n"}
+,{"stream_name":"stdout","time":1249.061047401,"data":"[type] DDoS_UDP                 seed=2  24.0s\n"}
+,{"stream_name":"stdout","time":1273.392472886,"data":"[type] Port_Scanning            seed=0  24.3s\n"}
+,{"stream_name":"stdout","time":1297.739721775,"data":"[type] Port_Scanning            seed=1  24.4s\n"}
+,{"stream_name":"stdout","time":1322.250597202,"data":"[type] Port_Scanning            seed=2  24.5s\n"}
+,{"stream_name":"stdout","time":1346.591416538,"data":"[type] XSS                      seed=0  24.3s\n"}
+,{"stream_name":"stdout","time":1370.902188178,"data":"[type] XSS                      seed=1  24.3s\n"}
+,{"stream_name":"stdout","time":1395.569576334,"data":"[type] XSS                      seed=2  24.7s\n"}
+,{"stream_name":"stdout","time":1419.546538116,"data":"[type] Uploading                seed=0  24.0s\n"}
+,{"stream_name":"stdout","time":1443.359465213,"data":"[type] Uploading                seed=1  23.8s\n"}
+,{"stream_name":"stdout","time":1467.151427448,"data":"[type] Uploading                seed=2  23.8s\n"}
+,{"stream_name":"stdout","time":1491.315686285,"data":"[type] Password                 seed=0  24.2s\n"}
+,{"stream_name":"stdout","time":1515.572536047,"data":"[type] Password                 seed=1  24.2s\n"}
+,{"stream_name":"stdout","time":1542.72398172,"data":"[type] Password                 seed=2  27.2s\n"}
+,{"stream_name":"stdout","time":1567.154272738,"data":"[type] Backdoor                 seed=0  24.4s\n"}
+,{"stream_name":"stdout","time":1591.317021643,"data":"[type] Backdoor                 seed=1  24.2s\n"}
+,{"stream_name":"stdout","time":1615.426200191,"data":"[type] Backdoor                 seed=2  24.1s\n"}
+,{"stream_name":"stdout","time":1640.706529582,"data":"[type] MITM                     seed=0  25.3s\n"}
+,{"stream_name":"stdout","time":1665.654794406,"data":"[type] MITM                     seed=1  24.9s\n"}
+,{"stream_name":"stdout","time":1690.4690161,"data":"[type] MITM                     seed=2  24.8s\n"}
+,{"stream_name":"stdout","time":1714.549764654,"data":"[type] SQL_injection            seed=0  24.1s\n"}
+,{"stream_name":"stdout","time":1739.12641335,"data":"[type] SQL_injection            seed=1  24.6s\n"}
+,{"stream_name":"stdout","time":1763.524535121,"data":"[type] SQL_injection            seed=2  24.4s\n"}
+,{"stream_name":"stdout","time":1787.894350542,"data":"[type] Vulnerability_scanner    seed=0  24.4s\n"}
+,{"stream_name":"stdout","time":1812.010081913,"data":"[type] Vulnerability_scanner    seed=1  24.1s\n"}
+,{"stream_name":"stdout","time":1836.215504351,"data":"[type] Vulnerability_scanner    seed=2  24.2s\n"}
+,{"stream_name":"stdout","time":1865.175545802,"data":"[type] Fingerprinting           seed=0  29.0s\n"}
+,{"stream_name":"stdout","time":1889.545769167,"data":"[type] Fingerprinting           seed=1  24.4s\n"}
+,{"stream_name":"stdout","time":1913.091009666,"data":"[type] Fingerprinting           seed=2  23.7s\n"}
+,{"stream_name":"stdout","time":1913.537153192,"data":"== LOGO grup (XGBoost) ==\n"}
+,{"stream_name":"stdout","time":1913.537192163,"data":"  model          method  auroc_mean  auroc_std  aupr_ood_mean  aupr_ood_std  fpr95_mean  fpr95_std  aurc_mean  aurc_std  coverage_mean  coverage_std  sel_acc_mean  sel_acc_std  ood_rej_mean  ood_rej_std\n"}
+,{"stream_name":"stdout","time":1913.537199527,"data":"XGBoost          Energy      0.9173     0.0712         0.8927        0.0685      0.3935     0.2523     0.0014    0.0006         0.9498        0.0028        0.9873       0.0065        0.6050       0.2507\n"}
+,{"stream_name":"stdout","time":1913.53720391,"data":"XGBoost         Entropy      0.9306     0.0382         0.8186        0.1684      0.5179     0.3054     0.0009    0.0004         0.9505        0.0023        0.9936       0.0035        0.4789       0.3042\n"}
+,{"stream_name":"stdout","time":1913.537208056,"data":"XGBoost       Entropy_T      0.9305     0.0382         0.8176        0.1687      0.5177     0.3051     0.0009    0.0004         0.9504        0.0022        0.9936       0.0034        0.4791       0.3042\n"}
+,{"stream_name":"stdout","time":1913.537212133,"data":"XGBoost IsolationForest      0.6344     0.2453         0.4606        0.2075      0.7084     0.3720     0.0174    0.0074         0.9506        0.0024        0.9745       0.0091        0.2810       0.3601\n"}
+,{"stream_name":"stdout","time":1913.537216114,"data":"XGBoost             MSP      0.9268     0.0360         0.7670        0.2114      0.5273     0.3057     0.0008    0.0004         0.9503        0.0023        0.9938       0.0032        0.4698       0.3051\n"}
+,{"stream_name":"stdout","time":1913.53722006,"data":"XGBoost           MSP_T      0.9267     0.0360         0.7666        0.2121      0.5272     0.3057     0.0008    0.0004         0.9503        0.0023        0.9938       0.0032        0.4699       0.3050\n"}
+,{"stream_name":"stdout","time":1913.537224246,"data":"XGBoost     Mahalanobis      0.7364     0.2290         0.7237        0.2322      0.5101     0.3875     0.0193    0.0086         0.9490        0.0030        0.9749       0.0091        0.4900       0.3874\n"}
+,{"stream_name":"stdout","time":1913.537228268,"data":"XGBoost             kNN      0.8821     0.0866         0.8793        0.0744      0.3685     0.2457     0.0321    0.0148         0.9493        0.0034        0.9757       0.0091        0.6362       0.2418\n"}
+,{"stream_name":"stdout","time":1913.537232629,"data":"== LOGO tipe (XGBoost) ==\n"}
+,{"stream_name":"stdout","time":1913.537237198,"data":"  model          method  auroc_mean  auroc_std  aupr_ood_mean  aupr_ood_std  fpr95_mean  fpr95_std  aurc_mean  aurc_std  coverage_mean  coverage_std  sel_acc_mean  sel_acc_std  ood_rej_mean  ood_rej_std\n"}
+,{"stream_name":"stdout","time":1913.537241298,"data":"XGBoost          Energy      0.8331     0.1698         0.6593        0.2682      0.4862     0.3286     0.0023    0.0005         0.9500        0.0027        0.9817       0.0038        0.5145       0.3275\n"}
+,{"stream_name":"stdout","time":1913.537259934,"data":"XGBoost         Entropy      0.8601     0.1218         0.5771        0.2300      0.5924     0.3261     0.0017    0.0004         0.9502        0.0027        0.9873       0.0039        0.4056       0.3251\n"}
+,{"stream_name":"stdout","time":1913.537263483,"data":"XGBoost       Entropy_T      0.8615     0.1207         0.5835        0.2306      0.5836     0.3281     0.0017    0.0004         0.9502        0.0028        0.9872       0.0039        0.4140       0.3279\n"}
+,{"stream_name":"stdout","time":1913.53726681,"data":"XGBoost IsolationForest      0.5892     0.2333         0.2665        0.2161      0.8606     0.3256     0.0346    0.0054         0.9501        0.0029        0.9561       0.0054        0.1411       0.3266\n"}
+,{"stream_name":"stdout","time":1913.537270184,"data":"XGBoost             MSP      0.8554     0.1215         0.5382        0.2257      0.6667     0.2828     0.0016    0.0004         0.9502        0.0026        0.9872       0.0039        0.3296       0.2794\n"}
+,{"stream_name":"stdout","time":1913.537273529,"data":"XGBoost           MSP_T      0.8563     0.1206         0.5402        0.2258      0.6626     0.2842     0.0016    0.0004         0.9502        0.0026        0.9873       0.0039        0.3333       0.2803\n"}
+,{"stream_name":"stdout","time":1913.537276813,"data":"XGBoost     Mahalanobis      0.7012     0.2473         0.4917        0.3321      0.5890     0.4094     0.0347    0.0056         0.9500        0.0027        0.9566       0.0053        0.4113       0.4093\n"}
+,{"stream_name":"stdout","time":1913.537280295,"data":"XGBoost             kNN      0.8217     0.1204         0.5980        0.2462      0.5283     0.3508     0.0510    0.0111         0.9503        0.0026        0.9579       0.0054        0.4706       0.3511\n"}
+,{"stream_name":"stdout","time":1913.762207517,"data":"level   model          method        vs  mean_auroc_diff  n_pairs  p_wilcoxon\n"}
+,{"stream_name":"stdout","time":1913.762247929,"data":"group XGBoost          Energy       MSP         -0.00947       25     0.63383\n"}
+,{"stream_name":"stdout","time":1913.762253792,"data":"group XGBoost         Entropy       MSP          0.00382       25     0.00029\n"}
+,{"stream_name":"stdout","time":1913.762258715,"data":"group XGBoost       Entropy_T       MSP          0.00371       25     0.00029\n"}
+,{"stream_name":"stdout","time":1913.762263653,"data":"group XGBoost IsolationForest       MSP         -0.29242       25     0.00000\n"}
+,{"stream_name":"stdout","time":1913.76226894,"data":"group XGBoost           MSP_T       MSP         -0.00011       25     0.02960\n"}
+,{"stream_name":"stdout","time":1913.762273634,"data":"group XGBoost     Mahalanobis       MSP         -0.19035       25     0.00025\n"}
+,{"stream_name":"stdout","time":1913.762278354,"data":"group XGBoost             kNN       MSP         -0.04466       25     0.14092\n"}
+,{"stream_name":"stdout","time":1913.762283069,"data":"group XGBoost          Energy   Entropy         -0.01328       25     0.81193\n"}
+,{"stream_name":"stdout","time":1913.762287931,"data":"group XGBoost       Entropy_T   Entropy         -0.00011       25     0.21448\n"}
+,{"stream_name":"stdout","time":1913.76229276,"data":"group XGBoost IsolationForest   Entropy         -0.29624       25     0.00000\n"}
+,{"stream_name":"stdout","time":1913.762297613,"data":"group XGBoost             MSP   Entropy         -0.00382       25     0.00029\n"}
+,{"stream_name":"stdout","time":1913.7623025,"data":"group XGBoost           MSP_T   Entropy         -0.00393       25     0.00029\n"}
+,{"stream_name":"stdout","time":1913.762307875,"data":"group XGBoost     Mahalanobis   Entropy         -0.19416       25     0.00006\n"}
+,{"stream_name":"stdout","time":1913.762332994,"data":"group XGBoost             kNN   Entropy         -0.04848       25     0.06263\n"}
+,{"stream_name":"stdout","time":1913.762337702,"data":" type XGBoost          Energy       MSP         -0.02234       42     0.55216\n"}
+,{"stream_name":"stdout","time":1913.762342169,"data":" type XGBoost         Entropy       MSP          0.00466       42     0.00000\n"}
+,{"stream_name":"stdout","time":1913.762346786,"data":" type XGBoost       Entropy_T       MSP          0.00609       42     0.00000\n"}
+,{"stream_name":"stdout","time":1913.762351667,"data":" type XGBoost IsolationForest       MSP         -0.26626       42     0.00000\n"}
+,{"stream_name":"stdout","time":1913.762356344,"data":" type XGBoost           MSP_T       MSP          0.00086       42     0.00027\n"}
+,{"stream_name":"stdout","time":1913.762360996,"data":" type XGBoost     Mahalanobis       MSP         -0.15426       42     0.00221\n"}
+,{"stream_name":"stdout","time":1913.762365227,"data":" type XGBoost             kNN       MSP         -0.03371       42     0.30272\n"}
+,{"stream_name":"stdout","time":1913.762370047,"data":" type XGBoost          Energy Entropy_T         -0.02843       42     0.35204\n"}
+,{"stream_name":"stdout","time":1913.762374397,"data":" type XGBoost         Entropy Entropy_T         -0.00143       42     0.00020\n"}
+,{"stream_name":"stdout","time":1913.762379154,"data":" type XGBoost IsolationForest Entropy_T         -0.27234       42     0.00000\n"}
+,{"stream_name":"stdout","time":1913.762383859,"data":" type XGBoost             MSP Entropy_T         -0.00609       42     0.00000\n"}
+,{"stream_name":"stdout","time":1913.762389832,"data":" type XGBoost           MSP_T Entropy_T         -0.00522       42     0.00000\n"}
+,{"stream_name":"stdout","time":1913.762394362,"data":" type XGBoost     Mahalanobis Entropy_T         -0.16035       42     0.00167\n"}
+,{"stream_name":"stdout","time":1913.762399274,"data":" type XGBoost             kNN Entropy_T         -0.03980       42     0.24262\n"}
+,{"stream_name":"stdout","time":1914.9175497,"data":"Rata-rata max-probability pada serangan unseen (%):\n"}
+,{"stream_name":"stdout","time":1914.91758604,"data":"model                  CatBoost  LightGBM  RandomForest  XGBoost\n"}
+,{"stream_name":"stdout","time":1914.917591716,"data":"held                                                            \n"}
+,{"stream_name":"stdout","time":1914.917596368,"data":"DoS_DDoS                  72.91     75.43         66.20    76.64\n"}
+,{"stream_name":"stdout","time":1914.91760124,"data":"Information_Gathering     69.61     87.26         47.62    85.18\n"}
+,{"stream_name":"stdout","time":1914.917606054,"data":"Injection                 71.98     83.77         63.46    80.16\n"}
+,{"stream_name":"stdout","time":1914.917610467,"data":"MITM                      66.41     75.15         39.60    60.67\n"}
+,{"stream_name":"stdout","time":1914.917615005,"data":"Malware                   80.94     92.19         55.11    89.00\n"}
+,{"stream_name":"stdout","time":1914.917619524,"data":"SELESAI. File di /kaggle/working\n"}
+,{"stream_name":"stderr","time":1919.104332574,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1919.104388035,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1919.304192329,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1919.304223692,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1920.206373346,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1920.324396821,"data":"[NbConvertApp] Writing 41929 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1923.7948343,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1924.619134106,"data":"[NbConvertApp] Writing 403528 bytes to __results__.html\n"}
+]

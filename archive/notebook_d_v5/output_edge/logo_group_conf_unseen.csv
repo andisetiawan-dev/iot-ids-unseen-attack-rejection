@@ -1,0 +1,6 @@
+held,CatBoost,LightGBM,RandomForest,XGBEns,XGBoost
+DoS_DDoS,89.65,90.87,74.78,94.05,94.97
+Information_Gathering,93.12,95.19,70.48,96.81,94.3
+Injection,68.14,80.75,59.68,76.25,79.28
+MITM,52.88,77.57,42.3,82.01,86.08
+Malware,84.45,93.52,74.79,92.34,92.77

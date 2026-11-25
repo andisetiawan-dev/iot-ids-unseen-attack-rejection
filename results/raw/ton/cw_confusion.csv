@@ -1,0 +1,7 @@
+,Benign,DoS_DDoS,Information_Gathering,Injection,MITM,Malware
+Benign,41740,94,7,51,36,17
+DoS_DDoS,73,33744,179,280,150,229
+Information_Gathering,6,41,18497,8,45,18
+Injection,25,153,73,33299,28,905
+MITM,48,54,13,46,847,31
+Malware,28,35,24,456,119,52161

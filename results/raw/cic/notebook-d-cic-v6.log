@@ -1,0 +1,207 @@
+[{"stream_name":"stderr","time":9.167546859,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":9.167652702,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":10.410570803,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.410633035,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.410643331,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.410648181,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.30056854,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.300606704,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.300612178,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.300642054,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":22.222047376,"data":"DATASET = cic | QUICK = False | seeds = [0, 1, 2, 3, 4]\n"}
+,{"stream_name":"stdout","time":61.891120632,"data":"/kaggle/input/datasets/himadri07/ciciot2023/CICIOT23/train/train.csv (5491971, 47)\n"}
+,{"stream_name":"stdout","time":66.788649152,"data":"duplikat dibuang: 757 | kolom konstan dibuang: 6 | fitur: 40\n"}
+,{"stream_name":"stdout","time":66.78870495,"data":"{'DDoS': 45951, 'Benign': 29820, 'Recon': 16059, 'DoS': 15947, 'Mirai': 11986, 'Spoofing': 7963, 'WebBased': 2768, 'BruteForce': 1488}\n"}
+,{"stream_name":"stdout","time":66.789606879,"data":"{'BenignTraffic': 29820, 'DDoS-PSHACK_Flood': 4000, 'DDoS-UDP_Flood': 4000, 'DDoS-ICMP_Flood': 4000, 'DDoS-SynonymousIP_Flood': 4000, 'DDoS-TCP_Flood': 4000, 'DoS-TCP_Flood': 4000, 'DoS-UDP_Flood': 3999, 'DDoS-RSTFINFlood': 3999, 'DDoS-SYN_Flood': 3999, 'Mirai-udpplain': 3998, 'DoS-SYN_Flood': 3997, 'DDoS-ICMP_Fragmentation': 3997, 'Mirai-greip_flood': 3995, 'Mirai-greeth_flood': 3993, 'DDoS-UDP_Fragmentation': 3988, 'DDoS-ACK_Fragmentation': 3986, 'MITM-ArpSpoofing': 3985, 'Recon-HostDiscovery': 3979, 'DNS_Spoofing': 3978, 'Recon-OSScan': 3964, 'Recon-PortScan': 3960, 'DoS-HTTP_Flood': 3951, 'VulnerabilityScan': 3911, 'DDoS-HTTP_Flood': 3291, 'DDoS-SlowLoris': 2691, 'DictionaryBruteForce': 1488, 'BrowserHijacking': 646, 'CommandInjection': 609, 'SqlInjection': 580, 'XSS': 406, 'Backdoor_Malware': 388, 'Recon-PingSweep': 245, 'Uploading_Attack': 139}\n"}
+,{"stream_name":"stdout","time":436.177747087,"data":"XGBoost selesai\n"}
+,{"stream_name":"stdout","time":746.56085412,"data":"LightGBM selesai\n"}
+,{"stream_name":"stdout","time":1183.932608259,"data":"CatBoost selesai\n"}
+,{"stream_name":"stdout","time":1725.256153823,"data":"RandomForest selesai\n"}
+,{"stream_name":"stdout","time":4741.926953468,"data":"XGBEns selesai\n"}
+,{"stream_name":"stdout","time":4741.927071597,"data":"              f1_mean  f1_std  acc_mean\n"}
+,{"stream_name":"stdout","time":4741.927078973,"data":"model                                  \n"}
+,{"stream_name":"stdout","time":4741.927084288,"data":"CatBoost       0.8695  0.0008    0.9457\n"}
+,{"stream_name":"stdout","time":4741.92708933,"data":"LightGBM       0.8875  0.0007    0.9531\n"}
+,{"stream_name":"stdout","time":4741.927106007,"data":"RandomForest   0.8305  0.0016    0.9379\n"}
+,{"stream_name":"stdout","time":4741.927110028,"data":"XGBEns         0.8853  0.0009    0.9523\n"}
+,{"stream_name":"stdout","time":4741.927113931,"data":"XGBoost        0.8833  0.0009    0.9515\n"}
+,{"stream_name":"stdout","time":5032.719614034,"data":"                           setting  f1_macro\n"}
+,{"stream_name":"stdout","time":5032.719683763,"data":"0  grup, XGBoost, tanpa kolom port    0.8833\n"}
+,{"stream_name":"stdout","time":5032.719690538,"data":"1          jenis serangan, XGBoost    0.8341\n"}
+,{"stream_name":"stdout","time":5032.719695564,"data":"              precision  recall  f1-score      support\n"}
+,{"stream_name":"stdout","time":5032.719700628,"data":"Benign           0.9019  0.9684    0.9340   29820.0000\n"}
+,{"stream_name":"stdout","time":5032.7197061,"data":"BruteForce       0.9082  0.6183    0.7357    1488.0000\n"}
+,{"stream_name":"stdout","time":5032.719711624,"data":"DDoS             0.9991  0.9991    0.9991   45951.0000\n"}
+,{"stream_name":"stdout","time":5032.719717144,"data":"DoS              0.9989  0.9981    0.9985   15947.0000\n"}
+,{"stream_name":"stdout","time":5032.719722122,"data":"Mirai            0.9998  0.9997    0.9998   11986.0000\n"}
+,{"stream_name":"stdout","time":5032.719727049,"data":"Recon            0.8761  0.8773    0.8767   16059.0000\n"}
+,{"stream_name":"stdout","time":5032.719732107,"data":"Spoofing         0.9269  0.7675    0.8397    7963.0000\n"}
+,{"stream_name":"stdout","time":5032.719736965,"data":"WebBased         0.7446  0.6478    0.6928    2768.0000\n"}
+,{"stream_name":"stdout","time":5032.719742416,"data":"accuracy         0.9516  0.9516    0.9516       0.9516\n"}
+,{"stream_name":"stdout","time":5032.719747384,"data":"macro avg        0.9194  0.8595    0.8845  131982.0000\n"}
+,{"stream_name":"stdout","time":5032.719752319,"data":"weighted avg     0.9515  0.9516    0.9505  131982.0000\n"}
+,{"stream_name":"stdout","time":5208.163150162,"data":"[group] WebBased                 seed=0 175.2s\n"}
+,{"stream_name":"stdout","time":5380.520378853,"data":"[group] WebBased                 seed=1 172.4s\n"}
+,{"stream_name":"stdout","time":5552.422232626,"data":"[group] WebBased                 seed=2 171.9s\n"}
+,{"stream_name":"stdout","time":5725.78308489,"data":"[group] WebBased                 seed=3 173.4s\n"}
+,{"stream_name":"stdout","time":5898.543862776,"data":"[group] WebBased                 seed=4 172.8s\n"}
+,{"stream_name":"stdout","time":6041.653463721,"data":"[group] DDoS                     seed=0 143.1s\n"}
+,{"stream_name":"stdout","time":6181.27438673,"data":"[group] DDoS                     seed=1 139.6s\n"}
+,{"stream_name":"stdout","time":6320.15481912,"data":"[group] DDoS                     seed=2 138.9s\n"}
+,{"stream_name":"stdout","time":6460.373609785,"data":"[group] DDoS                     seed=3 140.2s\n"}
+,{"stream_name":"stdout","time":6600.226771484,"data":"[group] DDoS                     seed=4 139.8s\n"}
+,{"stream_name":"stdout","time":6770.387376453,"data":"[group] Spoofing                 seed=0 170.2s\n"}
+,{"stream_name":"stdout","time":6937.77853162,"data":"[group] Spoofing                 seed=1 167.4s\n"}
+,{"stream_name":"stdout","time":7106.464069937,"data":"[group] Spoofing                 seed=2 168.7s\n"}
+,{"stream_name":"stdout","time":7279.55690897,"data":"[group] Spoofing                 seed=3 173.1s\n"}
+,{"stream_name":"stdout","time":7451.478016139,"data":"[group] Spoofing                 seed=4 171.9s\n"}
+,{"stream_name":"stdout","time":7627.989405625,"data":"[group] BruteForce               seed=0 176.5s\n"}
+,{"stream_name":"stdout","time":7805.494133759,"data":"[group] BruteForce               seed=1 177.5s\n"}
+,{"stream_name":"stdout","time":7982.71668993,"data":"[group] BruteForce               seed=2 177.2s\n"}
+,{"stream_name":"stdout","time":8160.123898795,"data":"[group] BruteForce               seed=3 177.4s\n"}
+,{"stream_name":"stdout","time":8343.115939263,"data":"[group] BruteForce               seed=4 183.0s\n"}
+,{"stream_name":"stdout","time":8513.025679774,"data":"[group] DoS                      seed=0 169.9s\n"}
+,{"stream_name":"stdout","time":8680.163417175,"data":"[group] DoS                      seed=1 166.8s\n"}
+,{"stream_name":"stdout","time":8846.870071628,"data":"[group] DoS                      seed=2 167.0s\n"}
+,{"stream_name":"stdout","time":9015.814437547,"data":"[group] DoS                      seed=3 168.9s\n"}
+,{"stream_name":"stdout","time":9184.679417413,"data":"[group] DoS                      seed=4 168.9s\n"}
+,{"stream_name":"stdout","time":9360.712771979,"data":"[group] Mirai                    seed=0 176.0s\n"}
+,{"stream_name":"stdout","time":9533.098517349,"data":"[group] Mirai                    seed=1 172.4s\n"}
+,{"stream_name":"stdout","time":9706.749996846,"data":"[group] Mirai                    seed=2 173.7s\n"}
+,{"stream_name":"stdout","time":9880.006868195,"data":"[group] Mirai                    seed=3 173.3s\n"}
+,{"stream_name":"stdout","time":10055.454100427,"data":"[group] Mirai                    seed=4 175.4s\n"}
+,{"stream_name":"stdout","time":10228.965505155,"data":"[group] Recon                    seed=0 173.5s\n"}
+,{"stream_name":"stdout","time":10390.314875763,"data":"[group] Recon                    seed=1 161.3s\n"}
+,{"stream_name":"stdout","time":10552.5342246,"data":"[group] Recon                    seed=2 162.2s\n"}
+,{"stream_name":"stdout","time":10714.36848387,"data":"[group] Recon                    seed=3 161.8s\n"}
+,{"stream_name":"stdout","time":10876.069234532,"data":"[group] Recon                    seed=4 161.7s\n"}
+,{"stream_name":"stdout","time":10877.361912997,"data":"== LOGO grup (XGBoost) ==\n"}
+,{"stream_name":"stdout","time":10877.361952334,"data":"  model          method  auroc_mean  auroc_std  aupr_ood_mean  aupr_ood_std  fpr95_mean  fpr95_std  aurc_mean  aurc_std  coverage_mean  coverage_std  sel_acc_mean  sel_acc_std  ood_rej_mean  ood_rej_std  mixerr_r1_mean  mixerr_r1_std  mixerr_r5_mean  mixerr_r5_std  mixerr_r10_mean  mixerr_r10_std  coverage_t90_mean  coverage_t90_std  sel_acc_t90_mean  sel_acc_t90_std  ood_rej_t90_mean  ood_rej_t90_std  coverage_t99_mean  coverage_t99_std  sel_acc_t99_mean  sel_acc_t99_std  ood_rej_t99_mean  ood_rej_t99_std\n"}
+,{"stream_name":"stdout","time":10877.361967128,"data":"XGBoost          Energy      0.7863     0.1591         0.5600        0.2309      0.7064     0.2198     0.0035    0.0020         0.9497        0.0019        0.9737       0.0125        0.2873       0.2210          0.0336         0.0143          0.0630         0.0219           0.1005          0.0315             0.9003            0.0026            0.9874           0.0090            0.4077           0.2827             0.9897            0.0010            0.9574           0.0135            0.1329           0.1349\n"}
+,{"stream_name":"stdout","time":10877.361978814,"data":"XGBoost         Entropy      0.8040     0.1376         0.5301        0.1919      0.7924     0.1854     0.0027    0.0015         0.9499        0.0018        0.9786       0.0113        0.2076       0.1852          0.0295         0.0128          0.0624         0.0190           0.1039          0.0267             0.9004            0.0026            0.9919           0.0071            0.3486           0.3032             0.9899            0.0009            0.9595           0.0133            0.0500           0.0477\n"}
+,{"stream_name":"stdout","time":10877.362000074,"data":"XGBoost       Entropy_T      0.8040     0.1376         0.5302        0.1920      0.7928     0.1851     0.0027    0.0015         0.9499        0.0018        0.9786       0.0113        0.2072       0.1850          0.0295         0.0128          0.0624         0.0190           0.1039          0.0267             0.9004            0.0026            0.9919           0.0071            0.3490           0.3036             0.9899            0.0009            0.9595           0.0133            0.0501           0.0477\n"}
+,{"stream_name":"stdout","time":10877.362003968,"data":"XGBoost IsolationForest      0.6259     0.1253         0.4181        0.2509      0.8887     0.0943     0.0504    0.0222         0.9496        0.0021        0.9526       0.0143        0.1110       0.0949          0.0563         0.0139          0.0921         0.0129           0.1371          0.0131             0.8993            0.0028            0.9517           0.0148            0.2136           0.1567             0.9899            0.0009            0.9532           0.0137            0.0324           0.0382\n"}
+,{"stream_name":"stdout","time":10877.36200749,"data":"XGBoost             MSP      0.8043     0.1371         0.5297        0.1920      0.7855     0.1879     0.0026    0.0015         0.9500        0.0018        0.9790       0.0113        0.2148       0.1882          0.0291         0.0128          0.0617         0.0192           0.1029          0.0270             0.9002            0.0026            0.9922           0.0068            0.3497           0.2984             0.9898            0.0010            0.9597           0.0133            0.0458           0.0440\n"}
+,{"stream_name":"stdout","time":10877.362010947,"data":"XGBoost           MSP_T      0.8043     0.1371         0.5297        0.1920      0.7857     0.1878     0.0026    0.0015         0.9500        0.0018        0.9790       0.0113        0.2147       0.1882          0.0291         0.0128          0.0617         0.0192           0.1029          0.0270             0.9002            0.0026            0.9922           0.0068            0.3497           0.2985             0.9898            0.0010            0.9597           0.0133            0.0458           0.0441\n"}
+,{"stream_name":"stdout","time":10877.362014775,"data":"XGBoost     Mahalanobis      0.7417     0.0914         0.5528        0.2302      0.6963     0.1794     0.0380    0.0167         0.9494        0.0019        0.9532       0.0137        0.3045       0.1788          0.0538         0.0131          0.0821         0.0132           0.1183          0.0177             0.8989            0.0031            0.9534           0.0146            0.3721           0.1524             0.9900            0.0009            0.9534           0.0136            0.2049           0.2136\n"}
+,{"stream_name":"stdout","time":10877.362018375,"data":"XGBoost             kNN      0.7974     0.1083         0.5814        0.2479      0.7081     0.1948     0.0180    0.0077         0.9498        0.0017        0.9533       0.0135        0.2924       0.1960          0.0538         0.0124          0.0826         0.0111           0.1193          0.0161             0.8995            0.0027            0.9557           0.0137            0.4836           0.1864             0.9898            0.0008            0.9535           0.0136            0.1554           0.1577\n"}
+,{"stream_name":"stdout","time":10877.567323956,"data":"level   model          method    vs  mean_auroc_diff  n_pairs  p_wilcoxon\n"}
+,{"stream_name":"stdout","time":10877.567360574,"data":"group XGBoost          Energy   MSP         -0.01795       35     0.00359\n"}
+,{"stream_name":"stdout","time":10877.567366018,"data":"group XGBoost         Entropy   MSP         -0.00030       35     0.59878\n"}
+,{"stream_name":"stdout","time":10877.567369954,"data":"group XGBoost       Entropy_T   MSP         -0.00028       35     0.67987\n"}
+,{"stream_name":"stdout","time":10877.567373697,"data":"group XGBoost IsolationForest   MSP         -0.17832       35     0.00003\n"}
+,{"stream_name":"stdout","time":10877.567395544,"data":"group XGBoost           MSP_T   MSP          0.00000       35     0.24154\n"}
+,{"stream_name":"stdout","time":10877.567400358,"data":"group XGBoost     Mahalanobis   MSP         -0.06261       35     0.00283\n"}
+,{"stream_name":"stdout","time":10877.567405069,"data":"group XGBoost             kNN   MSP         -0.00686       35     0.42220\n"}
+,{"stream_name":"stdout","time":10877.567409172,"data":"group XGBoost          Energy MSP_T         -0.01795       35     0.00359\n"}
+,{"stream_name":"stdout","time":10877.567414015,"data":"group XGBoost         Entropy MSP_T         -0.00031       35     0.57643\n"}
+,{"stream_name":"stdout","time":10877.567418102,"data":"group XGBoost       Entropy_T MSP_T         -0.00029       35     0.67987\n"}
+,{"stream_name":"stdout","time":10877.567422116,"data":"group XGBoost IsolationForest MSP_T         -0.17832       35     0.00003\n"}
+,{"stream_name":"stdout","time":10877.567426077,"data":"group XGBoost             MSP MSP_T         -0.00000       35     0.24154\n"}
+,{"stream_name":"stdout","time":10877.567429995,"data":"group XGBoost     Mahalanobis MSP_T         -0.06262       35     0.00283\n"}
+,{"stream_name":"stdout","time":10877.567434301,"data":"group XGBoost             kNN MSP_T         -0.00686       35     0.42220\n"}
+,{"stream_name":"stdout","time":10878.282378856,"data":"Rata-rata max-probability pada serangan unseen (%):\n"}
+,{"stream_name":"stdout","time":10878.282417038,"data":"model       CatBoost  LightGBM  RandomForest  XGBEns  XGBoost\n"}
+,{"stream_name":"stdout","time":10878.28242357,"data":"held                                                         \n"}
+,{"stream_name":"stdout","time":10878.282428228,"data":"BruteForce     65.46     77.19         45.77   75.38    75.52\n"}
+,{"stream_name":"stdout","time":10878.282432458,"data":"DDoS           84.14     92.97         71.07   93.29    94.14\n"}
+,{"stream_name":"stdout","time":10878.282436383,"data":"DoS            98.51     99.91         93.83   99.71    99.81\n"}
+,{"stream_name":"stdout","time":10878.282440748,"data":"Mirai          98.07     89.03         67.84   95.54    95.44\n"}
+,{"stream_name":"stdout","time":10878.282444476,"data":"Recon          70.54     82.64         53.30   79.64    80.89\n"}
+,{"stream_name":"stdout","time":10878.282448272,"data":"Spoofing       69.12     83.51         51.85   76.52    77.27\n"}
+,{"stream_name":"stdout","time":10878.282452058,"data":"WebBased       73.01     78.62         52.47   76.94    77.14\n"}
+,{"stream_name":"stdout","time":10878.411108178,"data":"      held  seed  spearman        pick            best   hit  regret_pseudo  regret_always_entropy  regret_always_msp\n"}
+,{"stream_name":"stdout","time":10878.411149807,"data":"BruteForce     0    0.6429         kNN       Entropy_T False         0.0278                 0.0000             0.0012\n"}
+,{"stream_name":"stdout","time":10878.411155544,"data":"BruteForce     1   -0.1190 Mahalanobis       Entropy_T False         0.1968                 0.0000             0.0013\n"}
+,{"stream_name":"stdout","time":10878.411160153,"data":"BruteForce     2   -0.3333         kNN         Entropy False         0.1187                 0.0000             0.0011\n"}
+,{"stream_name":"stdout","time":10878.41116693,"data":"BruteForce     3    0.9940     Entropy         Entropy  True         0.0000                 0.0000             0.0011\n"}
+,{"stream_name":"stdout","time":10878.411171091,"data":"BruteForce     4    0.5714         MSP          Energy False         0.0011                 0.0001             0.0011\n"}
+,{"stream_name":"stdout","time":10878.411175936,"data":"      DDoS     0    0.5714         kNN     Mahalanobis False         0.0455                 0.0541             0.0513\n"}
+,{"stream_name":"stdout","time":10878.411200024,"data":"      DDoS     1    0.4762         kNN IsolationForest False         0.0479                 0.0204             0.0151\n"}
+,{"stream_name":"stdout","time":10878.411205414,"data":"      DDoS     2    0.4671         kNN IsolationForest False         0.0498                 0.0548             0.0526\n"}
+,{"stream_name":"stdout","time":10878.411210077,"data":"      DDoS     3   -0.5629         MSP IsolationForest False         0.0654                 0.0690             0.0654\n"}
+,{"stream_name":"stdout","time":10878.411214354,"data":"      DDoS     4   -0.2381       MSP_T IsolationForest False         0.0264                 0.0309             0.0264\n"}
+,{"stream_name":"stdout","time":10878.411220103,"data":"       DoS     0    0.4048         kNN     Mahalanobis False         0.0337                 0.2059             0.2044\n"}
+,{"stream_name":"stdout","time":10878.411224803,"data":"       DoS     1    0.9048         kNN     Mahalanobis False         0.0393                 0.1264             0.1265\n"}
+,{"stream_name":"stdout","time":10878.411229519,"data":"       DoS     2    0.2619         kNN     Mahalanobis False         0.0840                 0.0990             0.0986\n"}
+,{"stream_name":"stdout","time":10878.411233864,"data":"       DoS     3   -0.0714     Entropy     Mahalanobis False         0.1230                 0.1230             0.1223\n"}
+,{"stream_name":"stdout","time":10878.411238029,"data":"       DoS     4   -0.5000         MSP     Mahalanobis False         0.1149                 0.1150             0.1149\n"}
+,{"stream_name":"stdout","time":10878.411242141,"data":"     Mirai     0    0.7545         kNN             kNN  True         0.0000                 0.1319             0.1340\n"}
+,{"stream_name":"stdout","time":10878.411249264,"data":"     Mirai     1   -0.0238 Mahalanobis             kNN False         0.0341                 0.1619             0.1630\n"}
+,{"stream_name":"stdout","time":10878.411253376,"data":"     Mirai     2   -0.4192       MSP_T             kNN False         0.1396                 0.1369             0.1396\n"}
+,{"stream_name":"stdout","time":10878.41125968,"data":"     Mirai     3   -0.2619         MSP             kNN False         0.1525                 0.1518             0.1525\n"}
+,{"stream_name":"stdout","time":10878.411269719,"data":"     Mirai     4   -0.2857         MSP             kNN False         0.1372                 0.1334             0.1372\n"}
+,{"stream_name":"stdout","time":10878.411272853,"data":"     Recon     0    0.9524   Entropy_T         Entropy False         0.0000                 0.0000             0.0016\n"}
+,{"stream_name":"stdout","time":10878.411275579,"data":"     Recon     1    0.6190         MSP       Entropy_T False         0.0022                 0.0000             0.0022\n"}
+,{"stream_name":"stdout","time":10878.411278273,"data":"     Recon     2    0.6667       MSP_T       Entropy_T False         0.0011                 0.0000             0.0011\n"}
+,{"stream_name":"stdout","time":10878.41128199,"data":"     Recon     3    0.4048         kNN       Entropy_T False         0.0689                 0.0000             0.0008\n"}
+,{"stream_name":"stdout","time":10878.41128675,"data":"     Recon     4    0.9524   Entropy_T         Entropy False         0.0000                 0.0000             0.0011\n"}
+,{"stream_name":"stdout","time":10878.411308619,"data":"  Spoofing     0    0.2143         kNN          Energy False         0.0939                 0.0164             0.0162\n"}
+,{"stream_name":"stdout","time":10878.411313583,"data":"  Spoofing     1   -0.7545 Mahalanobis          Energy False         0.1950                 0.0187             0.0176\n"}
+,{"stream_name":"stdout","time":10878.411318286,"data":"  Spoofing     2    0.4524   Entropy_T          Energy False         0.0211                 0.0214             0.0203\n"}
+,{"stream_name":"stdout","time":10878.411328858,"data":"  Spoofing     3    0.6190      Energy          Energy  True         0.0000                 0.0170             0.0159\n"}
+,{"stream_name":"stdout","time":10878.411333528,"data":"  Spoofing     4    0.5476     Entropy          Energy False         0.0144                 0.0144             0.0126\n"}
+,{"stream_name":"stdout","time":10878.411337703,"data":"  WebBased     0   -0.0952 Mahalanobis             MSP False         0.1538                 0.0015             0.0000\n"}
+,{"stream_name":"stdout","time":10878.41134189,"data":"  WebBased     1   -0.6429 Mahalanobis           MSP_T False         0.1474                 0.0022             0.0000\n"}
+,{"stream_name":"stdout","time":10878.411346282,"data":"  WebBased     2    0.9524       MSP_T           MSP_T  True         0.0000                 0.0010             0.0000\n"}
+,{"stream_name":"stdout","time":10878.411351005,"data":"  WebBased     3    0.1905      Energy             MSP False         0.0259                 0.0008             0.0000\n"}
+,{"stream_name":"stdout","time":10878.411355267,"data":"  WebBased     4    0.7857   Entropy_T           MSP_T False         0.0020                 0.0020             0.0000\n"}
+,{"stream_name":"stdout","time":10878.411359919,"data":"rata-rata Spearman(pseudo, real): 0.26 | hit rate top-1: 0.114\n"}
+,{"stream_name":"stdout","time":10878.41136419,"data":"regret rata-rata  pseudo: 0.0618 | selalu Entropy: 0.0489 | selalu MSP: 0.0486\n"}
+,{"stream_name":"stdout","time":10878.461005072,"data":"             auroc  ood_rej  mixerr_r5\n"}
+,{"stream_name":"stdout","time":10878.461044055,"data":"method                                \n"}
+,{"stream_name":"stdout","time":10878.461049584,"data":"Entropy_n2  0.8105   0.2205     0.0612\n"}
+,{"stream_name":"stdout","time":10878.461053784,"data":"Entropy_n4  0.8112   0.2205     0.0611\n"}
+,{"stream_name":"stdout","time":10878.461057787,"data":"Entropy_n8  0.8117   0.2217     0.0610\n"}
+,{"stream_name":"stdout","time":10878.461061737,"data":"MI_n2       0.8273   0.2816     0.0638\n"}
+,{"stream_name":"stdout","time":10878.461065639,"data":"MI_n4       0.8332   0.2997     0.0610\n"}
+,{"stream_name":"stdout","time":10878.461069644,"data":"MI_n8       0.8406   0.3210     0.0592\n"}
+,{"stream_name":"stdout","time":10878.461073552,"data":"                 coverage_t90  sel_acc_t90  ood_rej_t90  coverage  sel_acc  ood_rej  coverage_t99  sel_acc_t99  ood_rej_t99\n"}
+,{"stream_name":"stdout","time":10878.461077804,"data":"method                                                                                                                     \n"}
+,{"stream_name":"stdout","time":10878.461082029,"data":"Entropy                 0.900        0.992        0.362     0.950    0.979    0.221          0.99        0.960        0.052\n"}
+,{"stream_name":"stdout","time":10878.461086543,"data":"Entropy_n2              0.900        0.992        0.361     0.950    0.979    0.220          0.99        0.960        0.052\n"}
+,{"stream_name":"stdout","time":10878.461090835,"data":"Entropy_n4              0.900        0.992        0.362     0.950    0.979    0.221          0.99        0.960        0.052\n"}
+,{"stream_name":"stdout","time":10878.461095293,"data":"Entropy_n8              0.900        0.992        0.364     0.950    0.979    0.222          0.99        0.960        0.053\n"}
+,{"stream_name":"stdout","time":10878.461099767,"data":"Fusion_MI_kNN           0.900        0.975        0.635     0.950    0.967    0.452          0.99        0.958        0.171\n"}
+,{"stream_name":"stdout","time":10878.461104128,"data":"IsolationForest         0.899        0.953        0.214     0.950    0.953    0.111          0.99        0.954        0.032\n"}
+,{"stream_name":"stdout","time":10878.461129888,"data":"MI                      0.900        0.989        0.458     0.950    0.975    0.300          0.99        0.959        0.100\n"}
+,{"stream_name":"stdout","time":10878.461135275,"data":"MI_n2                   0.900        0.986        0.458     0.950    0.973    0.282          0.99        0.958        0.081\n"}
+,{"stream_name":"stdout","time":10878.461139873,"data":"MI_n4                   0.900        0.989        0.458     0.950    0.975    0.300          0.99        0.959        0.100\n"}
+,{"stream_name":"stdout","time":10878.461144821,"data":"MI_n8                   0.900        0.990        0.479     0.950    0.976    0.321          0.99        0.959        0.120\n"}
+,{"stream_name":"stdout","time":10878.461149468,"data":"MSP                     0.900        0.993        0.362     0.950    0.980    0.223          0.99        0.960        0.047\n"}
+,{"stream_name":"stdout","time":10878.461153696,"data":"Mahalanobis             0.899        0.954        0.372     0.949    0.954    0.305          0.99        0.954        0.205\n"}
+,{"stream_name":"stdout","time":10878.461160781,"data":"kNN                     0.900        0.956        0.484     0.950    0.954    0.292          0.99        0.954        0.155\n"}
+,{"stream_name":"stdout","time":10878.461165516,"data":"      held   nn_class     n  frac_ood  mi_rej_rate\n"}
+,{"stream_name":"stdout","time":10878.461170007,"data":"  WebBased     Benign   779     0.281        0.524\n"}
+,{"stream_name":"stdout","time":10878.461173921,"data":"  WebBased      Recon   895     0.323        0.432\n"}
+,{"stream_name":"stdout","time":10878.461177787,"data":"  WebBased   Spoofing   890     0.322        0.204\n"}
+,{"stream_name":"stdout","time":10878.461181647,"data":"      DDoS        DoS 18377     0.613        0.025\n"}
+,{"stream_name":"stdout","time":10878.461185498,"data":"      DDoS      Mirai  6487     0.216        0.504\n"}
+,{"stream_name":"stdout","time":10878.461189335,"data":"      DDoS   WebBased  2032     0.068        0.012\n"}
+,{"stream_name":"stdout","time":10878.461193172,"data":"  Spoofing     Benign  4920     0.618        0.583\n"}
+,{"stream_name":"stdout","time":10878.461197062,"data":"  Spoofing      Recon  1589     0.200        0.682\n"}
+,{"stream_name":"stdout","time":10878.461200912,"data":"  Spoofing   WebBased   662     0.083        0.630\n"}
+,{"stream_name":"stdout","time":10878.461204864,"data":"BruteForce     Benign   651     0.438        0.273\n"}
+,{"stream_name":"stdout","time":10878.461208716,"data":"BruteForce      Recon   521     0.350        0.269\n"}
+,{"stream_name":"stdout","time":10878.461212663,"data":"BruteForce   Spoofing   164     0.110        0.341\n"}
+,{"stream_name":"stdout","time":10878.461216512,"data":"BruteForce   WebBased   137     0.092        0.562\n"}
+,{"stream_name":"stdout","time":10878.461220404,"data":"       DoS       DDoS 14650     0.919        0.001\n"}
+,{"stream_name":"stdout","time":10878.461224332,"data":"     Mirai       DDoS  4791     0.400        0.059\n"}
+,{"stream_name":"stdout","time":10878.461230309,"data":"     Mirai        DoS  5067     0.423        0.660\n"}
+,{"stream_name":"stdout","time":10878.461234533,"data":"     Mirai   Spoofing  2012     0.168        0.038\n"}
+,{"stream_name":"stdout","time":10878.461240484,"data":"     Recon     Benign  5503     0.343        0.518\n"}
+,{"stream_name":"stdout","time":10878.461244306,"data":"     Recon BruteForce   908     0.057        0.729\n"}
+,{"stream_name":"stdout","time":10878.461248992,"data":"     Recon       DDoS  4207     0.262        0.494\n"}
+,{"stream_name":"stdout","time":10878.461253384,"data":"     Recon        DoS  2988     0.186        0.520\n"}
+,{"stream_name":"stdout","time":10878.461258127,"data":"     Recon   Spoofing  1278     0.080        0.679\n"}
+,{"stream_name":"stdout","time":10878.461268424,"data":"     Recon   WebBased  1089     0.068        0.560\n"}
+,{"stream_name":"stdout","time":10878.479169572,"data":"SELESAI. File di /kaggle/working\n"}
+,{"stream_name":"stderr","time":10883.252803755,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10883.252844663,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":10883.476119444,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":10883.476147217,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":10884.444950038,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":10884.555085115,"data":"[NbConvertApp] Writing 64896 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":10887.78240673,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":10888.685701912,"data":"[NbConvertApp] Writing 485522 bytes to __results__.html\n"}
+]

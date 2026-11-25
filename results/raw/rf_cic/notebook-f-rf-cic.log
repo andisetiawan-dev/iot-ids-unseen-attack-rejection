@@ -1,0 +1,85 @@
+[{"stream_name":"stderr","time":8.377158646,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":8.377268708,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":9.599836041,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.599867939,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.599874181,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.599879235,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.428411058,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.42845369,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.428460009,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.428464927,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":20.830786036,"data":"DATASET = cic | QUICK = False | seeds = [0, 1, 2, 3, 4]\n"}
+,{"stream_name":"stdout","time":59.038246078,"data":"/kaggle/input/datasets/himadri07/ciciot2023/CICIOT23/train/train.csv (5491971, 47)\n"}
+,{"stream_name":"stdout","time":63.469776459,"data":"duplikat dibuang: 757 | kolom konstan dibuang: 6 | fitur: 40\n"}
+,{"stream_name":"stdout","time":63.469813288,"data":"{'DDoS': 45951, 'Benign': 29820, 'Recon': 16059, 'DoS': 15947, 'Mirai': 11986, 'Spoofing': 7963, 'WebBased': 2768, 'BruteForce': 1488}\n"}
+,{"stream_name":"stdout","time":63.469826382,"data":"{'BenignTraffic': 29820, 'DDoS-PSHACK_Flood': 4000, 'DDoS-UDP_Flood': 4000, 'DDoS-ICMP_Flood': 4000, 'DDoS-SynonymousIP_Flood': 4000, 'DDoS-TCP_Flood': 4000, 'DoS-TCP_Flood': 4000, 'DoS-UDP_Flood': 3999, 'DDoS-RSTFINFlood': 3999, 'DDoS-SYN_Flood': 3999, 'Mirai-udpplain': 3998, 'DoS-SYN_Flood': 3997, 'DDoS-ICMP_Fragmentation': 3997, 'Mirai-greip_flood': 3995, 'Mirai-greeth_flood': 3993, 'DDoS-UDP_Fragmentation': 3988, 'DDoS-ACK_Fragmentation': 3986, 'MITM-ArpSpoofing': 3985, 'Recon-HostDiscovery': 3979, 'DNS_Spoofing': 3978, 'Recon-OSScan': 3964, 'Recon-PortScan': 3960, 'DoS-HTTP_Flood': 3951, 'VulnerabilityScan': 3911, 'DDoS-HTTP_Flood': 3291, 'DDoS-SlowLoris': 2691, 'DictionaryBruteForce': 1488, 'BrowserHijacking': 646, 'CommandInjection': 609, 'SqlInjection': 580, 'XSS': 406, 'Backdoor_Malware': 388, 'Recon-PingSweep': 245, 'Uploading_Attack': 139}\n"}
+,{"stream_name":"stdout","time":94.077038069,"data":"[group] WebBased                 seed=0  30.5s\n"}
+,{"stream_name":"stdout","time":123.881187912,"data":"[group] WebBased                 seed=1  29.8s\n"}
+,{"stream_name":"stdout","time":154.020574079,"data":"[group] WebBased                 seed=2  30.1s\n"}
+,{"stream_name":"stdout","time":183.788715252,"data":"[group] WebBased                 seed=3  29.8s\n"}
+,{"stream_name":"stdout","time":213.671459857,"data":"[group] WebBased                 seed=4  29.8s\n"}
+,{"stream_name":"stdout","time":240.726167218,"data":"[group] DDoS                     seed=0  27.1s\n"}
+,{"stream_name":"stdout","time":266.441172007,"data":"[group] DDoS                     seed=1  25.7s\n"}
+,{"stream_name":"stdout","time":292.004217621,"data":"[group] DDoS                     seed=2  25.6s\n"}
+,{"stream_name":"stdout","time":317.439931848,"data":"[group] DDoS                     seed=3  25.5s\n"}
+,{"stream_name":"stdout","time":342.735995296,"data":"[group] DDoS                     seed=4  25.3s\n"}
+,{"stream_name":"stdout","time":372.254361566,"data":"[group] Spoofing                 seed=0  29.5s\n"}
+,{"stream_name":"stdout","time":401.33093305,"data":"[group] Spoofing                 seed=1  29.1s\n"}
+,{"stream_name":"stdout","time":430.24896296,"data":"[group] Spoofing                 seed=2  28.9s\n"}
+,{"stream_name":"stdout","time":459.41468533,"data":"[group] Spoofing                 seed=3  29.1s\n"}
+,{"stream_name":"stdout","time":488.28194742,"data":"[group] Spoofing                 seed=4  28.9s\n"}
+,{"stream_name":"stdout","time":517.923827902,"data":"[group] BruteForce               seed=0  29.6s\n"}
+,{"stream_name":"stdout","time":547.768849149,"data":"[group] BruteForce               seed=1  29.8s\n"}
+,{"stream_name":"stdout","time":577.50691621,"data":"[group] BruteForce               seed=2  29.7s\n"}
+,{"stream_name":"stdout","time":607.445694015,"data":"[group] BruteForce               seed=3  30.0s\n"}
+,{"stream_name":"stdout","time":637.170699105,"data":"[group] BruteForce               seed=4  29.7s\n"}
+,{"stream_name":"stdout","time":666.744452609,"data":"[group] DoS                      seed=0  29.6s\n"}
+,{"stream_name":"stdout","time":695.625464284,"data":"[group] DoS                      seed=1  28.9s\n"}
+,{"stream_name":"stdout","time":725.053283631,"data":"[group] DoS                      seed=2  29.4s\n"}
+,{"stream_name":"stdout","time":754.832719355,"data":"[group] DoS                      seed=3  29.8s\n"}
+,{"stream_name":"stdout","time":785.076176308,"data":"[group] DoS                      seed=4  30.2s\n"}
+,{"stream_name":"stdout","time":816.408032791,"data":"[group] Mirai                    seed=0  31.3s\n"}
+,{"stream_name":"stdout","time":847.069972202,"data":"[group] Mirai                    seed=1  30.7s\n"}
+,{"stream_name":"stdout","time":877.368571068,"data":"[group] Mirai                    seed=2  30.3s\n"}
+,{"stream_name":"stdout","time":907.394489545,"data":"[group] Mirai                    seed=3  30.0s\n"}
+,{"stream_name":"stdout","time":937.375908539,"data":"[group] Mirai                    seed=4  30.0s\n"}
+,{"stream_name":"stdout","time":966.1234765,"data":"[group] Recon                    seed=0  28.7s\n"}
+,{"stream_name":"stdout","time":994.014267768,"data":"[group] Recon                    seed=1  27.9s\n"}
+,{"stream_name":"stdout","time":1021.802851757,"data":"[group] Recon                    seed=2  27.8s\n"}
+,{"stream_name":"stdout","time":1049.131226552,"data":"[group] Recon                    seed=3  27.3s\n"}
+,{"stream_name":"stdout","time":1076.650849042,"data":"[group] Recon                    seed=4  27.5s\n"}
+,{"stream_name":"stdout","time":1076.740732466,"data":"                     auroc  aupr_ood   fpr95  ood_rej  mixerr_r5\n"}
+,{"stream_name":"stdout","time":1076.740795775,"data":"method                                                          \n"}
+,{"stream_name":"stdout","time":1076.740802636,"data":"Entropy             0.8035    0.6050  0.6467   0.3526     0.0699\n"}
+,{"stream_name":"stdout","time":1076.740809112,"data":"Fusion_MItrees_kNN  0.8430    0.6751  0.4864   0.5134     0.0774\n"}
+,{"stream_name":"stdout","time":1076.740814986,"data":"IsolationForest     0.6259    0.4181  0.8887   0.1110     0.1054\n"}
+,{"stream_name":"stdout","time":1076.740820856,"data":"MI_trees            0.8358    0.6618  0.4866   0.5130     0.0760\n"}
+,{"stream_name":"stdout","time":1076.740845646,"data":"MSP                 0.8030    0.5978  0.6653   0.3347     0.0696\n"}
+,{"stream_name":"stdout","time":1076.740850819,"data":"Mahalanobis         0.7417    0.5528  0.6963   0.3045     0.0949\n"}
+,{"stream_name":"stdout","time":1076.740855201,"data":"kNN                 0.7974    0.5814  0.7081   0.2924     0.0952\n"}
+,{"stream_name":"stdout","time":1076.740859401,"data":"               method       vs  mean_auroc_diff  n_pairs  p_wilcoxon\n"}
+,{"stream_name":"stdout","time":1076.740863969,"data":"0            MI_trees      MSP          0.03278       35     0.08707\n"}
+,{"stream_name":"stdout","time":1076.740868297,"data":"1  Fusion_MItrees_kNN      MSP          0.04006       35     0.08707\n"}
+,{"stream_name":"stdout","time":1076.7408729,"data":"2                 kNN      MSP         -0.00558       35     0.96775\n"}
+,{"stream_name":"stdout","time":1076.740877796,"data":"3            MI_trees  Entropy          0.03231       35     0.08707\n"}
+,{"stream_name":"stdout","time":1076.740882043,"data":"4  Fusion_MItrees_kNN  Entropy          0.03959       35     0.08707\n"}
+,{"stream_name":"stdout","time":1076.740886187,"data":"5                 kNN  Entropy         -0.00605       35     1.00000\n"}
+,{"stream_name":"stdout","time":1076.740890582,"data":"held                BruteForce   DDoS    DoS  Mirai  Recon  Spoofing  WebBased\n"}
+,{"stream_name":"stdout","time":1076.740895182,"data":"method                                                                        \n"}
+,{"stream_name":"stdout","time":1076.740899814,"data":"Entropy                  0.947  0.619  0.401  0.835  0.952     0.936     0.935\n"}
+,{"stream_name":"stdout","time":1076.740904346,"data":"Fusion_MItrees_kNN       0.883  0.745  0.537  0.993  0.921     0.922     0.899\n"}
+,{"stream_name":"stdout","time":1076.740908774,"data":"IsolationForest          0.449  0.766  0.567  0.773  0.551     0.733     0.542\n"}
+,{"stream_name":"stdout","time":1076.740913306,"data":"MI_trees                 0.888  0.742  0.466  0.988  0.942     0.927     0.896\n"}
+,{"stream_name":"stdout","time":1076.740917624,"data":"MSP                      0.945  0.631  0.404  0.834  0.944     0.929     0.934\n"}
+,{"stream_name":"stdout","time":1076.74092212,"data":"Mahalanobis              0.627  0.764  0.647  0.926  0.748     0.745     0.735\n"}
+,{"stream_name":"stdout","time":1076.740926875,"data":"kNN                      0.801  0.719  0.594  0.962  0.833     0.847     0.827\n"}
+,{"stream_name":"stdout","time":1076.740931646,"data":"SELESAI. File di /kaggle/working\n"}
+,{"stream_name":"stderr","time":1080.958165197,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1080.958207031,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1081.159229279,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1081.159259081,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1082.140063623,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1082.247931053,"data":"[NbConvertApp] Writing 34318 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1085.672487327,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1086.496770325,"data":"[NbConvertApp] Writing 409550 bytes to __results__.html\n"}
+]

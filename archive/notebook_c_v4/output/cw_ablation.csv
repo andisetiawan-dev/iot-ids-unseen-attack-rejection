@@ -1,0 +1,4 @@
+setting,f1_macro
+"6 grup, tanpa Attack_label (benar)",0.9692
+"6 grup, dengan Attack_label (bocor)",0.9719
+"15 kelas (Attack_type), XGBoost",0.9349
